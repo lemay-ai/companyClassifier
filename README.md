@@ -4,7 +4,7 @@ This project converts small company names to company type. Have a look at the fo
 
 https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac484d8c3bf
 
-*INSTALL INSTRUCTIONS:*
+# INSTALL INSTRUCTIONS
 
 This project can be pip installed using the command: pip install smallCompanyType
 
