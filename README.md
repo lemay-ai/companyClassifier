@@ -20,7 +20,7 @@ Alternatively the project can be cloned from the github repository following the
 * python3 test_text.py
 * python3 test_pandas.py
 
-## Use Instructions
+## USE INSTRUCTIONS
 
 
 
