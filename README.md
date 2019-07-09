@@ -1,4 +1,4 @@
-smallCompanyType2.0
+# smallCompanyType2.0
 
 This project converts small company names to company type. Have a look at the following medium article: 
 
