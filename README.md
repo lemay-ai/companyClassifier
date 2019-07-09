@@ -1,4 +1,4 @@
-# smallCompanyType2.0
+# smallCompanyType 2.0
 
 This project converts small company names to company type. Have a look at the following medium article: 
 
@@ -19,6 +19,8 @@ Alternatively the project can be cloned from the github repository following the
 * cd test
 * python3 test_text.py
 * python3 test_pandas.py
+
+## Use Instructions
 
 
 
