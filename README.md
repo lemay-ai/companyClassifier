@@ -1,9 +1,8 @@
-# smallCompanyType
+# smallCompanyType2.0
 
 This project converts small company names to company type. Have a look at the following medium article: 
 
 https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac484d8c3bf
-
 
 *INSTALL INSTRUCTIONS:*
 
@@ -31,4 +30,4 @@ http://lemay.ai
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# smallCompanyType2.0
+
