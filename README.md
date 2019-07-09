@@ -6,6 +6,10 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 
 *INSTALL INSTRUCTIONS:*
 
+This project can be pip installed using the command: pip install smallCompanyType
+
+Alternatively the project can be cloned from the github repository following the instructions provided below:
+
 * git clone https://github.com/dcshapiro/smallCompanyType.git
 * cd smallCompanyType/
 * pip3 install h5py
@@ -15,6 +19,8 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 * cd test
 * python3 test_text.py
 * python3 test_pandas.py
+
+
 
 http://lemay.ai
 
