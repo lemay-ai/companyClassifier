@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 setup(
     name='smallCompanyType',
-    version="1.0",
+    version="2.0",
     packages=['smallCompanyType','smallCompanyType.models'],
     package_data={'': ['*.h5','*.pkl',]},
     include_package_data=True,
