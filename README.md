@@ -10,7 +10,7 @@ This project can be pip installed using the command: pip install smallCompanyTyp
 
 Alternatively the project can be cloned from the github repository following the instructions provided below:
 
-* git clone https://github.com/dcshapiro/smallCompanyType.git
+* git clone https://github.com/HershelCK/smallCompanyType2.0.git
 * cd smallCompanyType/
 * pip3 install h5py
 * pip3 install keras --upgrade
