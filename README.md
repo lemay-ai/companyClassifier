@@ -26,7 +26,7 @@ Alternatively the project can be cloned from the github repository following the
 
 Make sure the following dependencies are imported:
 
-``from sklearn.preprocessing import OneHotEncoder 
+``from sklearn.preprocessing import OneHotEncoder <br/> 
 from keras.models import load_model 
 import numpy as np 
 import re 
@@ -39,7 +39,7 @@ After installation import the project as a module with the following code:
 
 ``import smallCompanyType as s``
 
-In order to test the model predictions <br/> call the SmallCompanyType class with: 
+In order to test the model predictions call the SmallCompanyType class with: 
 
 ``b=s.SmallCompanyType()``
 
