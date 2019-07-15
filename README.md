@@ -6,7 +6,9 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 
 ## INSTALL INSTRUCTIONS
 
-This project can be pip installed using the command: pip install smallCompanyType
+This project can be pip installed using the command: 
+
+pip install smallCompanyType
 
 Alternatively the project can be cloned from the github repository following the instructions provided below:
 
@@ -22,18 +24,22 @@ Alternatively the project can be cloned from the github repository following the
 
 ## USE INSTRUCTIONS
 
-After installation import the project as a module with the following code: import smallCompanyType as s
+After installation import the project as a module with the following code: 
 
-In order to test the model predictions call the SmallCompanyType class with: b=s.SmallCompanyType()
+import smallCompanyType as s
+
+In order to test the model predictions call the SmallCompanyType class with: 
+
+b=s.SmallCompanyType()
 
 You can use the test case below or modify the text strings.
 
-texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
+```texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
 
 for text in texts:
     ctype = b.getCompanyType(text)
     csubtype = b.getCompanySubtype(text)
-    print(text,"is a",ctype,csubtype)
+    print(text,"is a",ctype,csubtype)```
 
 http://lemay.ai
 
