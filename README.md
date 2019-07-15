@@ -26,30 +26,30 @@ Alternatively the project can be cloned from the github repository following the
 
 Make sure the following dependencies are imported:
 
-```from sklearn.preprocessing import OneHotEncoder
+``from sklearn.preprocessing import OneHotEncoder
 from keras.models import load_model
 import numpy as np
 import re 
 from os import path
 import pandas as pd
 import pickle
-import sys'''
+import sys``
 
 After installation import the project as a module with the following code: 
 
-```import smallCompanyType as s
+``import smallCompanyType as s``
 
 In order to test the model predictions call the SmallCompanyType class with: 
 
-```b=s.SmallCompanyType()
+``b=s.SmallCompanyType()``
 
 You can use the test case below or modify the text strings.
 
-```texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
+``texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
 for text in texts:
     ctype = b.getCompanyType(text)
     csubtype = b.getCompanySubtype(text)
-    print(text,"is a",ctype,csubtype)
+    print(text,"is a",ctype,csubtype)``
 
 http://lemay.ai
 
