@@ -26,11 +26,11 @@ Alternatively the project can be cloned from the github repository following the
 
 After installation import the project as a module with the following code: 
 
-import smallCompanyType as s
+```import smallCompanyType as s```
 
 In order to test the model predictions call the SmallCompanyType class with: 
 
-b=s.SmallCompanyType()
+```b=s.SmallCompanyType()```
 
 You can use the test case below or modify the text strings.
 
