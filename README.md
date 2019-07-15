@@ -37,7 +37,7 @@ import sys
 
 After installation import the project as a module with the following code: 
 
-```import smallCompanyType as s```
+import smallCompanyType as s```
 
 In order to test the model predictions call the SmallCompanyType class with: 
 
