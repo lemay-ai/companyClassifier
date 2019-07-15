@@ -33,7 +33,7 @@ import re
 from os import path
 import pandas as pd
 import pickle
-import sys```
+import sys
 
 After installation import the project as a module with the following code: 
 
