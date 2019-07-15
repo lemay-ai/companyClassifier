@@ -26,13 +26,13 @@ Alternatively the project can be cloned from the github repository following the
 
 Make sure the following dependencies are imported:
 
-``from sklearn.preprocessing import OneHotEncoder \\
-from keras.models import load_model \\
-import numpy as np
-import re 
-from os import path
-import pandas as pd
-import pickle
+``from sklearn.preprocessing import OneHotEncoder\ 
+from keras.models import load_model \
+import numpy as np\
+import re \
+from os import path\
+import pandas as pd\
+import pickle\
 import sys``
 
 After installation import the project as a module with the following code: 
