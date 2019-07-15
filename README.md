@@ -26,7 +26,7 @@ Alternatively the project can be cloned from the github repository following the
 
 Make sure the following dependencies are imported:
 
-``from sklearn.preprocessing import OneHotEncoder <br/> 
+``from sklearn.preprocessing import OneHotEncoder 
 from keras.models import load_model 
 import numpy as np 
 import re 
