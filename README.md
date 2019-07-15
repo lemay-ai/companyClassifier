@@ -35,7 +35,6 @@ In order to test the model predictions call the SmallCompanyType class with:
 You can use the test case below or modify the text strings.
 
 ```texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
-
 for text in texts:
     ctype = b.getCompanyType(text)
     csubtype = b.getCompanySubtype(text)
