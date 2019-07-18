@@ -150,7 +150,7 @@ class SmallCompanyType():
     def __init__(self):
         models_dir = path.join(path.dirname(__file__), 'models')
         self.dnn_model = load_model(models_dir+'/company_classifier.h5')
-        infile = open(models_dir+ '/encode.pkl','rb')
+        with open(models_dir+ '/encode.pkl','rb') as infile:
         self.enc = pickle.load(infile)
         infile.close()
     
