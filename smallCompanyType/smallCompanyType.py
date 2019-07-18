@@ -1,12 +1,7 @@
-from sklearn import preprocessing
-from sklearn.preprocessing import OneHotEncoder
 from keras.models import load_model
 import numpy as np
-import re 
 from os import path
-import pandas as pd
 import pickle
-import sys
 
 
 
