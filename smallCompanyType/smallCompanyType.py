@@ -149,14 +149,8 @@ class SmallCompanyType():
     # Load the model components
     def __init__(self):
         models_dir = path.join(path.dirname(__file__), 'models')
-        #self.dnn_model = load_model(models_dir+'/0_1024_companySector_model.h5')
-        #print(models_dir)
-        print(__file__)
-        print(path.dirname(__file__))
-        print(models_dir)
         self.dnn_model = load_model(models_dir+'/company_classifier.h5')
         infile = open(models_dir+ '/encode.pkl','rb')
-        #infile = open(models_dir + '/encode.pkl','rb')
         self.enc = pickle.load(infile)
         infile.close()
     
@@ -179,7 +173,6 @@ class SmallCompanyType():
     # Predict and return a categorical label for an input company name string
     def getCompanySubtype(self, name):
         sample=self.getCompanyEncoding(name)
-        #sampleMod = sample[np.newaxis,:]
         predicted = (self.dnn_model.predict(sample)[0])
         return self.inverse_transform[np.argmax(predicted)]
     
