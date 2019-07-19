@@ -142,8 +142,8 @@ class SmallCompanyType():
         models_dir = path.join(path.dirname(__file__), 'models')
         self.dnn_model = load_model(models_dir+'/company_classifier.h5')
         with open(models_dir+ '/encode.pkl','rb') as infile:
-        self.enc = pickle.load(infile)
-        infile.close()
+            self.enc = pickle.load(infile)
+            infile.close()
     
     #Get a one-hot encoding for a company name string
     def getCompanyEncoding(self, name):
