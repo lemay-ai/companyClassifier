@@ -26,10 +26,11 @@ Alternatively the project can be cloned from the github repository following the
 
 Make sure the following dependencies are imported:
 
-``from sklearn.preprocessing import OneHotEncoder 
+`` 
 from keras.models import load_model  
 from os import path
-import sys``
+import sys
+``
 
 After installation import the project as a module with the following code: 
 
@@ -41,11 +42,13 @@ In order to test the model predictions call the SmallCompanyType class with:
 
 You can use the test case below or modify the text strings.
 
-``texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
+``
+texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
 for text in texts:
     ctype = b.getCompanyType(text)
     csubtype = b.getCompanySubtype(text)
-    print(text,"is a",ctype,csubtype)``
+    print(text,"is a",ctype,csubtype)
+``
 
 http://lemay.ai
 
