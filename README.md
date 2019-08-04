@@ -13,9 +13,8 @@ This project can be pip installed using the command:
 To install from inside a jupyter notebook cell:
 
 ```python
-s = "import sys
-!{sys.executable} -m pip install numpy"
-print s
+import sys
+!{sys.executable} -m pip install smallCompanyType
 ```
 
 Alternatively the project can be cloned from the github repository following the instructions provided below:
