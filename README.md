@@ -10,6 +10,14 @@ This project can be pip installed using the command:
 
 *pip install smallCompanyType*
 
+To install from inside a jupyter notebook cell:
+
+```python
+s = "import sys\n
+!{sys.executable} -m pip install numpy"
+print s
+```
+
 Alternatively the project can be cloned from the github repository following the instructions provided below:
 
 * git clone https://github.com/lemay-ai/smallCompanyType2.0.git
