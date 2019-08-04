@@ -13,7 +13,7 @@ This project can be pip installed using the command:
 To install from inside a jupyter notebook cell:
 
 ```python
-s = "import sys\n
+s = "import sys
 !{sys.executable} -m pip install numpy"
 print s
 ```
