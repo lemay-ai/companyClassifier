@@ -33,29 +33,33 @@ Alternatively the project can be cloned from the github repository following the
 
 Make sure the following dependencies are imported:
 
-`` 
+```python
 from keras.models import load_model  
 from os import path
 import sys
-``
+```
 
 After installation import the project as a module with the following code: 
 
-``import smallCompanyType as s``
+```python
+import smallCompanyType as s
+```
 
 In order to test the model predictions call the SmallCompanyType class with: 
 
-``b=s.SmallCompanyType()``
+```python
+b=s.SmallCompanyType()
+```
 
 You can use the test case below or modify the text strings.
 
-``
+```python
 texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
 for text in texts:
     ctype = b.getCompanyType(text)
     csubtype = b.getCompanySubtype(text)
     print(text,"is a",ctype,csubtype)
-``
+```
 
 http://lemay.ai
 
