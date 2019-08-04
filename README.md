@@ -1,4 +1,4 @@
-# smallCompanyType 2.2
+# smallCompanyType=2.2
 
 This project converts small company names to company type. Have a look at the following medium article: 
 
@@ -8,11 +8,11 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 
 This project can be pip installed using the command: 
 
-pip install smallCompanyType
+*pip install smallCompanyType*
 
 Alternatively the project can be cloned from the github repository following the instructions provided below:
 
-* git clone https://github.com/HershelCK/smallCompanyType2.0.git
+* git clone https://github.com/lemay-ai/smallCompanyType2.0.git
 * cd smallCompanyType/
 * pip3 install h5py
 * pip3 install keras --upgrade
