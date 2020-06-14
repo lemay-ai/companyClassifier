@@ -1,0 +1,21 @@
+Business Name,True Label,Reasonable to Predict?,Potentially Classified As
+Altum Spa And Wellness               , Health and Beauty          , YES                             , -                                  
+Paul Loubert Plumbing & Gas          , Plumber                    , YES                             , -                                  
+Rambling Hound Bakery                , Retail Dealer              , YES                             , -                                  
+Teamworks Health Clinic              , Health Services            , YES                             , -                                  
+Tripzter Travel Inc                  , Travel Agent               , YES                             , -                                  
+B-Lynne Clothing                     , Retail Dealer              , YES                             , -                                  
+Fotojo Studios                       , Photographer               , YES                             , -                                  
+Happiness Productions Inc            , Production Company         , YES                             , -                                  
+Kin's Farm Market                    , Retail Dealer - Food       , YES                             , -                                  
+North Shore Neuropsychology          , Health Services            , YES                             , -                                  
+Grandola Contracting Ltd             , Contractor                 , YES                             , Referral Services                  
+New Concept Education Inc            , Instruction                , YES                             , School (private)                   
+Odenza Homes Ltd                     , Contractor                 , YES                             , Residential/Commercial             
+XDM Digital Media                    , Photographer               , YES                             , Computer Services                  
+Ayreborn Audio-Video Inc             , Contractor                 , MAYBE                           , Computer Services                  
+Zwada Design Inc                     , Retail Dealer              , MAYBE                           , Homecraft                          
+E Leaders Consulting                 , Referral Services          , NO                              , Contractor                         
+Gerald Victor Gionco (Gerald Gionco) , Exhibitions/Shows/Concerts , NO                              , Contractor                         
+Hangar 18 Creative Group Inc         , Computer Services          , NO                              , Studio                             
+RHIQS Holdings Ltd                   , Laboratory                 , NO                              , Residential/Commercial             
