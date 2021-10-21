@@ -6,5 +6,5 @@ setup(
     packages=['smallCompanyType','smallCompanyType.models'],
     package_data={'': ['*.h5','*.pkl',]},
     include_package_data=True,
-    install_requires=["Keras>=2.1.2","transformers","numpy>=1.13.3","h5py>=2.7.1"],
+    install_requires=["Keras>=2.1.2","transformers","numpy>=1.13.3"],
 )
