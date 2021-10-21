@@ -1,6 +1,6 @@
-# smallCompanyType=3.0
+# companyClassifier
 
-This project converts small company names to company type. Have a look at the following medium article: 
+This project converts company names to company labels. Have a look at the following medium article: 
 
 https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac484d8c3bf
 
