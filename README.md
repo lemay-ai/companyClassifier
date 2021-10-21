@@ -1,4 +1,4 @@
-# smallCompanyType=2.2
+# smallCompanyType=3.0
 
 This project converts small company names to company type. Have a look at the following medium article: 
 
@@ -19,7 +19,7 @@ import sys
 
 Alternatively the project can be cloned from the github repository following the instructions provided below:
 
-* git clone https://github.com/lemay-ai/smallCompanyType2.0.git
+* git clone https://github.com/lemay-ai/smallCompanyType.git
 * cd smallCompanyType/
 * pip3 install h5py
 * pip3 install keras --upgrade
