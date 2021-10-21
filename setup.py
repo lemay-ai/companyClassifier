@@ -6,5 +6,5 @@ setup(
     packages=['smallCompanyType','smallCompanyType.models'],
     package_data={'': ['*.h5','*.pkl',]},
     include_package_data=True,
-    install_requires=["keras>=2.6.0","transformers>=4.11.3","numpy>=1.13.3"],
+    install_requires=["keras>=2.6.0","transformers>=4.11.3","numpy>=1.13.3","tensorflow>=2.6.0"],
 )
