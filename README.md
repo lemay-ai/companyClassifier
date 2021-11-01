@@ -8,26 +8,24 @@ https://medium.com/@lemaysolutions/deep-learning-magic-small-business-type-8ac48
 
 This project can be pip installed using the command: 
 
-*pip install smallCompanyType*
+*pip install companyClassifier*
 
 To install from inside a jupyter notebook cell:
 
 ```python
 import sys
-!{sys.executable} -m pip install smallCompanyType
+!{sys.executable} -m pip install companyClassifier
 ```
 
-Alternatively the project can be cloned from the github repository following the instructions provided below:
+Alternatively the project can be cloned from the Github repository following the instructions provided below:
 
-* git clone https://github.com/lemay-ai/smallCompanyType.git
-* cd smallCompanyType/
-* pip3 install h5py
-* pip3 install keras --upgrade
-* pip3 install tensorflow --upgrade
-* python3 setup.py install
+* git clone https://github.com/lemay-ai/companyClassifier.git
+* cd companyClassifier/
+* pip install -r requirements.text
+* python setup.py install
 * cd test
-* python3 test_text.py
-* python3 test_pandas.py
+* python test_text.py
+* python test_pandas.py
 
 ## USE INSTRUCTIONS
 
@@ -42,23 +40,23 @@ import sys
 After installation import the project as a module with the following code: 
 
 ```python
-import smallCompanyType as s
+import companyClassifier as s
 ```
 
 In order to test the model predictions call the SmallCompanyType class with: 
 
 ```python
-b=s.SmallCompanyType()
+b=s.companyClassifier()
 ```
 
 You can use the test case below or modify the text strings.
 
 ```python
-texts=["Lemay.ai Night Club","Farah's variety","felding and associates","Lemay.ai Consulting", "Jims Garage"]
-for text in texts:
-    ctype = b.getCompanyType(text)
-    csubtype = b.getCompanySubtype(text)
-    print(text,"is a",ctype,csubtype)
+texts=["Lemay.ai Hotel","Farah's variety","felding and associates","Lemay.ai Consulting"]
+ctypes_subtypes = b.classifyCompany(texts)
+
+for company in texts:
+    print(company,"is a",ctypes_subtypes["type"][company],ctypes_subtypes["subtype"][company])
 ```
 
 http://lemay.ai
